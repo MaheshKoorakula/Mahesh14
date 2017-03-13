@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		
+		
+		<meta http-equiv="Content-Type" content="text/html; charset= iso-8859-1"/>
+		<meta name="description" content="Embedded Systems">
+		<meta name="keywords" content="Embedded System,Contents,News & Updates">
+		<meta name="author" content="Mahesh">
+		
+		<title>Embedded Systems Project</title>
+		
+		<style>
+				body{
+						width:100%;
+						min-width:900px;
+						max-width:1050px;
+						font-family: Verdana, Times New Roman, Sans-Serif;
+						font-weight:normal;
+						font-size:16px;
+						margin: 0px auto 0px auto;
+						border: 1px solid black;
+					}
+					#mainContainer{
+									width:100%;
+									background-image: ur(file:///D:/images.jpg);
+								}
+					#headerIMG{
+								width:100%;
+								height:300px;
+							}
+					nav.horizontalNAV{
+										position":relative;
+										text-align:center;
+										background-color:rgb(220,201,180);
+										margin:0px;
+										padding:0px;
+										top:-100px;
+									}
+					nav.horizontalNAV ul{
+										list-style:none;
+										}
+					nav.horizontalNAV li a{
+											text-decoration:none;
+											color:rgb(255,255,99);
+											font-size:16px;
+										}
+					nav.horizontalNAV li{
+										display:inline-block;
+										border:1px solid green;
+										border-radius:25px;
+										padding:10px;
+										background-color:rgb(100,200,100);
+										}
+					nav.horizontalNAV a:hover{
+												color:red;
+											}
+					#rightSideBar{
+									position:relative;
+									float:right;
+									width:200px;
+									height:500px;
+									background-color:rgb(175,174,175);
+									border-left:1px solid black;
+									margin-left:20px;
+								}
+					#rightSideBar h1{
+										font-size:29px;
+										color:red;
+										padding-botton:20px;
+										text-decoration:underline;
+									}
+					#rightSideBar h2{
+										font-size:20px;
+										color:green;
+										background-color:yellow;
+										font-family:Comic Sans;
+									}
+	</style>
+		
+	</head>
+	
+	<body>
+	
+		<div id="mainContainer">
+		
+			<div id="header">
+			<img src="file:///D:/embedded-Systems-1170x540.jpg" alt="Embedded Header" id="headerIMG"/>
+			</div>
+		
+			<nav class="horizontalNAV">
+				<ul>
+					<li><a href="http://www.embedded.com">Home</a></li>
+					<li><a href="https://en.wikipedia.org/wiki/Embedded_system">About</a></li>
+					<li><a href="http://electronicdesign.com/embedded/advances-embedded-systems-cultivate-connectivity-and-development-tools">Advancements</a></li>
+					<li><a href="http://www.electronicsweekly.com/market-sectors/embedded-systems">Embedded Weekly</a></li>
+					<li><a href="http://www.academia.edu/3099819/Applications_Of_Embedded_System">Applications</a></li>
+					<li><a href="http://www.eetimes.com/author.asp?section_id=36&doc_id=1287560">Current Trends</a></li>
+					<li><a href="http://ubiquity.acm.org/article.cfm?id=1086450">Real Time ES</a></li>
+					<li><a href="http://www.digit.in/technology-guides/fasttrack-to-embedded-systems/future-of-embedded-systems-and-career-options.html">Future of ES</a></li>
+				</ul>
+			</nav>
+	<div id="rightSideBar">
+	<marquee bgcolor=orange direction="up"><h1>News & Updates</h1>
+		<h2>Vacation Circular-2016</h2>
+		<h2>M.E./M.Tech Admissions 2016-2017 Guidelines</h2>
+		<h2>M.B.A/M.C.A Admissions 2016-2017 Guidelines</h2>
+		<h2>Sudhee Dates Postponed Dates will be Declared later</h2>
+		<h2>A Two Day on Workshop on Communication intelligence System on 25th and 26th OCT(ECE Department)</h2>
+		<h2>2nd National Conference on recent trends in power systems and drives on 28th and 29th OCT(EEE Department)</h2>
+		<h2>Autonomous Syllabus</h2></marquee>
+	</div>	
+			<h1>Contents</h1>
+			<div>
+				<h2><em>Introduction to Embedded Systems</em></h2>
+<p>Embedded System<br>Processor Embedded Into a System<br>Embedded Hardware units and Device in a System<br>Embedded Software in a System<br>
+Examples of Embedded System.<br>Design Process of Embedded System.<br>Formalisation of System design.<br>Design process and Design Examples.<br>
+Classification of Embedded Systems.<br>Skills required for the Embedded Systems designer.</p></div>
+<div>
+<h2><em>Programming concepts and Embedded programming in C</em></h2>
+<p>Software programming in Assembly language and in high level language C.<br>C program elements: Header and source files.<br>preprocessor directives.<br>program elements, macros and functions<br>
+program elements: data types,
+data structures, modifiers, statements, loops and pointers.<br>
+Interprocess communication and synchronization of processes, Threads and Tasks.<br>
+Multiple processes in an application<br> Multiple threads in an application<br>Tasks , Task states, Task
+and data<br> Clear cut distinction between functions<br> ISRs and tasks and their characteristics.<br>
+Concept of semaphore.<br> Shared data, Interprocess communication.<br>Signal function, Semaphore
+functions<br> Message queue functions<br>Mailbox functions.<br>Pipe functions.<br>Socket functions.<br> RPC functions.</p></div>
+<div>
+<h2><em>Real time operating systems</em></h2>
+<p>OS services<br>Process management<br>Timer functions, Event
+functions<br>Memory management<br>Device, File, IO subsystems management<br>Interrupt routine in
+RTOS environment and handling of Interrupt source calls<br>RTOS, RTOS task scheduling
+models<br>Interrupt latency<br>Response of tasks as performance metrics<br>OS security issues.</p></div>
+<div>
+<h2><em>Real time OS programming-I</em></h2>
+<p>8051 interfacing with displays (LED, 7 segment display, LCD)<br> Switch, Relay , Buzzer, D/A and
+A/D converters, Stepper motor.<br>Micro C/OS –II and Vx works<br>Basic functions and types of
+RTOSes<br>RTOS Micro COS-II<br>RTOS Vxworks, Basic features.<br>
+Networked Embedded systems<br>Serial communication protocols<br>I2C bus, CAN bus, RS232<br>
+Introduction to advanced architectures: ARM and SHARC .</p></div>
+<div>
+<h2><em>Embedded software Development process tools Testing, simulation and debugging techniques and tools</em></h2>
+<p>Introduction to embedded software development process and tools<br>Host and Target machines<br>Linking and locating software<br>
+Getting embedded software into target system<br>Issues in hardware - software design and Co-design.<br> Testing on host machine.<br>Simulators, Laboratory tools.</p></div>
+</div>
+<div class="footer">
+	<address><center>
+	Done by Mahesh&nbsp; &#9728; Embedded Systems Project &nbsp; &#9728; CSE-3 &nbsp; &#9728; Chaitanya Bharathi Institute of Technology
+	</address></center></div>
